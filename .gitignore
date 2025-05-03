@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# data is downloaded by src/data.py, not committed
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+
+models/*.joblib
+experiments/*.log
