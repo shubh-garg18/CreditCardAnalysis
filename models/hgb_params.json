@@ -1,0 +1,13 @@
+{
+  "params": {
+    "l2_regularization": 0.02715581955282941,
+    "learning_rate": 0.014830392684568025,
+    "max_iter": 234,
+    "max_leaf_nodes": 16,
+    "min_samples_leaf": 81
+  },
+  "cv_pr_auc": 0.5487722185308577,
+  "cv_pr_auc_untuned": 0.5417564895490168,
+  "val_pr_auc": 0.5768680888057743,
+  "val_pr_auc_untuned": 0.5782139829660465
+}
