@@ -1,0 +1,66 @@
+[
+  {
+    "case": "highest risk",
+    "row": 1402,
+    "p_default": 0.8253618383937449,
+    "base_rate_from_model": 0.18229716126369014,
+    "drivers": [
+      {
+        "feature": "PAY_2_2",
+        "shap": 0.9911071577147957
+      },
+      {
+        "feature": "PAY_0_3+",
+        "shap": 0.607675313395737
+      },
+      {
+        "feature": "PAY_3_2",
+        "shap": 0.38417016491573663
+      },
+      {
+        "feature": "PAY_6_3+",
+        "shap": 0.2102209743257366
+      },
+      {
+        "feature": "LIMIT_BAL",
+        "shap": 0.20523538944566136
+      },
+      {
+        "feature": "PAY_AMT1",
+        "shap": 0.18722154936165497
+      }
+    ]
+  },
+  {
+    "case": "lowest risk",
+    "row": 1739,
+    "p_default": 0.03605342356422973,
+    "base_rate_from_model": 0.18229716126369014,
+    "drivers": [
+      {
+        "feature": "PAY_AMT2",
+        "shap": -0.36827923086459363
+      },
+      {
+        "feature": "PAY_AMT1",
+        "shap": -0.29111456849812045
+      },
+      {
+        "feature": "PAY_0_2",
+        "shap": -0.21746497250556737
+      },
+      {
+        "feature": "LIMIT_BAL",
+        "shap": -0.19937207460783146
+      },
+      {
+        "feature": "PAY_AMT5",
+        "shap": -0.14201177854676608
+      },
+      {
+        "feature": "BILL_AMT1",
+        "shap": -0.12233961809470172
+      }
+    ]
+  }
+]

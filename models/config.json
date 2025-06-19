@@ -1,0 +1,16 @@
+{
+  "model": "HistGradientBoostingClassifier (sklearn), tuned, uncalibrated",
+  "artifact": "final_model.joblib",
+  "params": {
+    "l2_regularization": 0.02715581955282941,
+    "learning_rate": 0.014830392684568025,
+    "max_iter": 234,
+    "max_leaf_nodes": 16,
+    "min_samples_leaf": 81
+  },
+  "drop_sex": true,
+  "threshold": 0.3175675758037982,
+  "threshold_rule": "flag the riskiest 20% of the scored population",
+  "capacity": 0.2,
+  "trained_on": "UCI default of credit card clients, train split"
+}
